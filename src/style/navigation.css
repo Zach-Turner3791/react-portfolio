@@ -1,0 +1,1 @@
+.nav-wrapper{display:flex;justify-content:space-between;padding:30px}.nav-wrapper .left-side{display:flex}.nav-wrapper .nav-link-wrapper{height:22px;border-bottom:1px solid rgba(0,0,0,0);transition:.5s ease-in-out}.nav-wrapper .nav-link-wrapper a{color:#000;text-decoration:none}.nav-wrapper .nav-link-wrapper:hover{border-bottom:1px solid #000}
