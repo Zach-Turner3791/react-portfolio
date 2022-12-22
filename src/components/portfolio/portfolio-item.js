@@ -40,8 +40,7 @@ export default class PortfolioItem extends Component {
             <img src={logo_url} />
           </div>
 
-          <div className='subtitle'>{description}</div>
-          {/* <div className='subtitle'>{(description.length > 25 ? description.substring(0, 25) + '...' : description)}</div> */}
+          <div className='subtitle'>{(description.length > 25 ? description.substring(0, 25) + '...' : description)}</div>
         </div>
       </div>
     );
