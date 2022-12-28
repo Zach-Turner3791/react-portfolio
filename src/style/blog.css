@@ -1,0 +1,1 @@
+.blog-container{display:flex;flex-direction:column;align-items:center}.blog-container .content-container{display:flex;flex-direction:column;width:800px}.blog-container .content-container .featured-image-wrapper img{margin:15px 0px;width:100%;height:350px;border-radius:5px;-o-object-fit:cover;object-fit:cover}

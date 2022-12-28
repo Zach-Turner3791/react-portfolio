@@ -241,7 +241,7 @@ export default class PortfolioForm extends Component {
             type='text'
             name='description'
             placeholder='Description'
-            maxLength={150}
+            maxLength={250}
             value={this.state.description}
             onChange={this.handleChange}
           />
