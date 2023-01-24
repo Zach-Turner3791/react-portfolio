@@ -63,7 +63,7 @@ class Blog extends Component {
 
     axios.get(`https://zachturner.devcamp.space/portfolio/portfolio_blogs?page=${this.state.currentPage}`, { withCredentials: true })
     .then(response => {
-      console.log("getting", response.data);
+      console.log("getting blog items", response.data);
       this.setState({
         blogItems: this.state.blogItems.concat(response.data.portfolio_blogs),
         totalCount: response.data.meta.total_records,
@@ -71,7 +71,7 @@ class Blog extends Component {
       })
     })
     .catch(err => {
-      console.log("error", err);
+      console.log("blog item error", err);
     })
   }
 
@@ -111,7 +111,7 @@ class Blog extends Component {
 
         {this.state.isLoading ? (
           <div className='content-loaders'>
-            <FontAwesomeIcon icon="spinner" spin />
+            <FontAwesomeIcon icon="fa-spinner" className='fa-spin' />
           </div>
         ) : null}
       </div>
