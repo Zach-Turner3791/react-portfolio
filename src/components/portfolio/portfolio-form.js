@@ -269,7 +269,7 @@ export default class PortfolioForm extends Component {
               <div className='dz-message'>Thumbnail</div>
             </DropzoneComponent>
           )}
-
+ 
           {this.state.banner_image_url && this.state.editMode ? (
             <div className='portfolio-manager-image-wrapper'>
               <img src={this.state.banner_image_url} />
